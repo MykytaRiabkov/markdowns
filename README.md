@@ -23,16 +23,15 @@ HTML-koden `<h1>` betyr en overskrift. Det finnes 6 forskjellige overskrifter. F
 ```print("type 'exit' to quit")
 
 while True:
-    user_input = input("Enter expression: ").strip()
+    user_input = input("enter expression: ").strip()
     
     if user_input.lower() == 'exit':
         break
         
     try:
-        # Evaluates the mathematical expression directly
-        print(f"Result: {eval(user_input)}")
+        print(f"result: {eval(user_input)}")
     except Exception as e:
-        print("Error in expression")
+        print("error in expression")
 ```
 ---
 
