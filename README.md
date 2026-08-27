@@ -20,6 +20,20 @@ Jeg er __18__ år gammel. Hobbyene mine er _gitar_, _gaming_ og _programmering_.
 HTML-koden `<h1>` betyr en overskrift. Det finnes 6 forskjellige overskrifter. For eksempel: `<h3>`, osv.
 ![Overskrifter i HTML](headings-in-html.png)
 
+```print("type 'exit' to quit")
+
+while True:
+    user_input = input("Enter expression: ").strip()
+    
+    if user_input.lower() == 'exit':
+        break
+        
+    try:
+        # Evaluates the mathematical expression directly
+        print(f"Result: {eval(user_input)}")
+    except Exception as e:
+        print("Error in expression")
+```
 ---
 
 # Gul nivå
